@@ -1,0 +1,1028 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, C:/Users/ravin/Desktop/Project-2/src/sass/normalizee.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, C:/Users/ravin/Desktop/Project-2/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+html {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
+/* line 24, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+a {
+  text-decoration: none;
+  color: white;
+  z-index: 2;
+}
+
+/* line 28, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.black {
+  color: black;
+}
+
+/* line 30, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 33, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.main-section {
+  overflow: hidden;
+  min-height: 800px;
+  background: #E8E8E8;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 30px;
+}
+
+/* line 40, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+/* line 45, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.main-section__header {
+  margin-top: 20px;
+}
+
+/* line 47, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.main-section__content {
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+}
+
+/* line 51, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.main-section__nav {
+  padding-right: 60px;
+}
+
+/* line 53, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.main-section__first-elypse {
+  position: absolute;
+  z-index: -1;
+  right: -80px;
+  top: 30px;
+}
+
+/* line 58, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.main-section__second-elypse {
+  position: absolute;
+  right: -80px;
+  top: 650px;
+}
+
+/* line 64, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.nav-menu {
+  margin-top: 20px;
+}
+
+/* line 66, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 69, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.nav-menu__item {
+  margin-right: 80px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 73, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.nav-menu__item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 78, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.nav-menu__item-last {
+  font-size: 18px;
+}
+
+/* line 80, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.nav-menu__item-last a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 87, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left {
+  position: relative;
+}
+
+/* line 90, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left img {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 93, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__rectangle-blue {
+  position: absolute;
+  top: 70px;
+  left: -50px;
+  width: 600px;
+  height: 200px;
+  background: #438FFE;
+  border-radius: 100px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-60deg);
+}
+
+/* line 104, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__rectangle-orange {
+  position: absolute;
+  width: 634.43px;
+  height: 200px;
+  left: -15px;
+  top: 90px;
+  background: #FC7D4D;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-45deg);
+}
+
+/* line 116, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__rectangle-grey {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  left: 30px;
+  top: 145px;
+  background: #D6D6D6;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-30deg);
+}
+
+/* line 127, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 131, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.mg {
+  margin-right: 40px;
+}
+
+/* line 133, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 139, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.title {
+  position: relative;
+  font-size: 60px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+/* line 144, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.title__hr {
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  width: 49px;
+  border: none;
+  border-top: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 152, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right {
+  width: 450px;
+  position: absolute;
+  top: 50px;
+  right: 76px;
+}
+
+/* line 157, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right__icons {
+  margin-bottom: 15px;
+  padding-right: 20px;
+}
+
+/* line 160, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right__title {
+  margin-left: 73px;
+  margin-bottom: 10px;
+}
+
+/* line 163, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right__text {
+  font-size: 14px;
+  margin-left: 73px;
+  width: 250px;
+  margin-bottom: 23px;
+}
+
+/* line 168, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right__icon-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 172, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right__icon-btn img {
+  margin-right: 17px;
+}
+
+/* line 174, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right_telegram {
+  z-index: 2;
+}
+
+/* line 177, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right__button {
+  margin-left: 50px;
+}
+
+/* line 179, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 182, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.buttons__main-btn {
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 20px;
+  width: 200px;
+  height: 60px;
+  border: 0;
+  background: #FC7D4D;
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+/* line 193, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.buttons__text {
+  font-style: 16px;
+}
+
+/* line 196, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse {
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(132.05deg, rgba(252, 125, 77, 0.5) 14.92%, rgba(67, 143, 254, 0.5) 54.65%, rgba(59, 58, 61, 0.5) 85.56%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 205, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse__substract {
+  width: 152px;
+  height: 152px;
+  background: #E8E8E8;
+  border-radius: 150px;
+}
+
+/* line 210, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse__substract_big {
+  width: 145px;
+  height: 145px;
+}
+
+/* line 213, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse__substract_small {
+  width: 98.91px;
+  height: 98.91px;
+  background: white;
+  border-radius: 150px;
+}
+
+/* line 218, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse_big {
+  width: 210px;
+  height: 210px;
+  transform: rotate(41.26deg);
+}
+
+/* line 222, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse_small {
+  width: 145px;
+  height: 145px;
+  transform: rotate(-75.17deg);
+}
+
+/* line 226, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse_small2 {
+  width: 145px;
+  height: 145px;
+  transform: rotate(51.23deg);
+}
+
+/* line 230, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.elypse_rot {
+  transform: rotate(-59.99deg);
+}
+
+/* line 233, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2 {
+  position: relative;
+  margin: 0 auto;
+  min-height: 650px;
+}
+
+/* line 237, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__content {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 242, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__3cards {
+  display: flex;
+}
+
+/* line 244, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__title {
+  margin-bottom: 40px;
+}
+
+/* line 246, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__1card {
+  margin-right: 28px;
+  z-index: 1;
+}
+
+/* line 249, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__2card {
+  margin-right: 28px;
+}
+
+/* line 251, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__3card {
+  z-index: 1;
+}
+
+/* line 253, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__3cards {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 256, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__icons {
+  display: flex;
+  margin-left: 130px;
+}
+
+/* line 260, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__icon1-3 {
+  margin-right: 65px;
+}
+
+/* line 262, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__elypse {
+  position: absolute;
+  top: 350px;
+  left: -10px;
+}
+
+/* line 266, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section2__elypse2 {
+  position: absolute;
+  top: 32px;
+  right: -134px;
+}
+
+/* line 270, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section3 {
+  position: relative;
+  margin: 0 auto;
+  min-height: 650px;
+  background: #E8E8E8;
+  overflow: hidden;
+}
+
+/* line 276, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section3__content {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 283, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section3__left {
+  position: absolute;
+  top: 280px;
+  right: 550px;
+}
+
+/* line 287, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.section3__right3 {
+  position: absolute;
+  top: 40px;
+  right: 45px;
+}
+
+/* line 292, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__learning {
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/* line 297, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__content {
+  position: relative;
+}
+
+/* line 299, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__dec1 {
+  z-index: 2;
+  position: absolute;
+  top: -46px;
+  right: 220px;
+}
+
+/* line 304, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__dec2 {
+  z-index: 1;
+  position: absolute;
+  top: -123px;
+  right: 120px;
+}
+
+/* line 309, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__hr {
+  position: absolute;
+  left: 3px;
+}
+
+/* line 312, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.left__dec3 {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+}
+
+/* line 317, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right3__hr {
+  position: absolute;
+  bottom: 58px;
+  left: 3px;
+}
+
+/* line 321, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right3__text {
+  width: 454px;
+  height: 320px;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 328, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right3__title {
+  margin-bottom: 30px;
+}
+
+/* line 330, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right3__main-btn {
+  margin-left: 0px;
+  margin-right: 76px;
+}
+
+/* line 333, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.right3__button {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 336, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.mb40 {
+  margin-bottom: 40px;
+}
+
+/* line 339, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.titlenoml {
+  position: relative;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* line 343, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.titlenoml__hr {
+  margin: 0;
+  width: 60px;
+  border: none;
+  border-top: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 349, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.footer {
+  background: white;
+  position: relative;
+}
+
+/* line 352, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.footer__hr {
+  position: absolute;
+  bottom: 58px;
+  left: 3px;
+}
+
+/* line 356, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  padding-right: 180px;
+}
+
+/* line 360, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+/* line 364, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.footer__container {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 80px;
+}
+
+/* line 371, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
