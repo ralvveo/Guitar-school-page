@@ -1336,17 +1336,18 @@ a {
     z-index: 18;
     width: 40%;
     transition: 1.5s all;
+    height: 470px;
   }
-  /* line 569, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 570, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu__item {
     margin-right: 0px;
     font-size: 20px;
   }
-  /* line 572, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 573, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu__item_last {
     font-size: 20px;
   }
-  /* line 574, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 575, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu__list {
     display: flex;
     flex-direction: column;
@@ -1354,7 +1355,7 @@ a {
     align-items: center;
     height: 100%;
   }
-  /* line 580, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 581, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger {
     background: linear-gradient(171.44deg, #FC7D4D 10.22%, #438FFE 56.79%, rgba(59, 58, 61, 0) 100%);
     width: 44px;
@@ -1368,7 +1369,7 @@ a {
     align-items: center;
     justify-content: center;
   }
-  /* line 592, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 593, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger span {
     height: 2px;
     width: 35px;
@@ -1377,140 +1378,140 @@ a {
     margin-bottom: 4px;
     transition: 1s all;
   }
-  /* line 600, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 601, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger span:last-child {
     margin-bottom: 10px;
   }
-  /* line 603, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 604, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span {
     margin-bottom: -2px;
   }
-  /* line 605, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 606, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span:nth-child(1) {
     transform: translateY(3px) rotate(-45deg);
   }
-  /* line 607, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 608, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span:nth-child(2) {
     display: none;
   }
-  /* line 609, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 610, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
   }
-  /* line 611, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 612, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu_active {
     right: 0px;
     z-index: 18;
   }
-  /* line 615, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 616, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section {
     margin-bottom: 10px;
     min-height: 450px;
   }
-  /* line 618, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 619, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__header {
     margin-top: 10px;
   }
-  /* line 620, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 621, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__nav {
     padding-right: 0px;
   }
-  /* line 622, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 623, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__first-elypse {
     top: 5px;
   }
-  /* line 624, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 625, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__second-elypse {
     top: 370px;
   }
-  /* line 627, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 628, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left img {
     width: 350px;
   }
-  /* line 629, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 630, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__rectangle-blue {
     width: 300px;
     height: 110px;
   }
-  /* line 632, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 633, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__rectangle-orange {
     width: 300px;
     height: 110px;
     left: -26px;
   }
-  /* line 636, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 637, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__rectangle-grey {
     width: 300px;
     height: 110px;
     left: 0px;
     top: 110px;
   }
-  /* line 641, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 642, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .title {
     font-size: 38px;
     margin-left: 0px;
   }
-  /* line 644, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 645, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .title__hr {
     width: 30px;
   }
-  /* line 647, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 648, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .titlenoml {
     font-size: 38px;
   }
-  /* line 649, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 650, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .titlenoml__hr {
     width: 30px;
   }
-  /* line 651, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 652, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .icons__img {
     width: 30px;
   }
-  /* line 653, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 654, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .mg {
     margin-right: 30px;
   }
-  /* line 655, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 656, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right {
     top: 0;
     right: -150px;
   }
-  /* line 658, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 659, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__icons {
     padding-right: 30px;
   }
-  /* line 662, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 663, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__text {
     margin-left: 107px;
     margin-bottom: 50px;
     font-size: 14px;
     width: 180px;
   }
-  /* line 667, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 668, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__button {
     margin-left: 0;
     margin-right: 30px;
   }
-  /* line 670, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 671, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__title {
     margin-left: 108px;
   }
-  /* line 672, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 673, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .elypse {
     width: 140px;
     height: 140px;
   }
-  /* line 675, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 676, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .elypse__substract {
     width: 92px;
     height: 92px;
   }
-  /* line 678, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 679, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .buttons {
     flex-direction: column;
     align-items: center;
   }
-  /* line 681, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 682, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .buttons__main-btn {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -1518,143 +1519,143 @@ a {
     height: 50px;
     font-size: 15px;
   }
-  /* line 687, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 688, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__first-elypse {
     right: 0;
   }
-  /* line 689, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 690, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2 {
     min-height: 350px;
     padding-right: 20px;
   }
-  /* line 692, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 693, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__title {
     margin-bottom: 30px;
   }
-  /* line 694, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 695, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__hr1 {
     margin-left: 5px;
   }
-  /* line 696, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 697, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__3cards {
     margin-left: 10px;
     margin-bottom: 0;
   }
-  /* line 699, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 700, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icons {
     justify-content: center;
     padding-left: 25px;
   }
-  /* line 702, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 703, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icon1 {
     margin-left: 0px;
   }
-  /* line 704, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 705, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icon1-3 {
     width: 115px;
     height: 115px;
     margin-right: 10px;
   }
-  /* line 708, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 709, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icon4 {
     width: 115px;
     height: 115px;
   }
-  /* line 711, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 712, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__elypse {
     top: 149px;
     left: -63px;
   }
-  /* line 715, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 716, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__elypse2 {
     right: -100px;
     top: 0;
   }
-  /* line 718, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 719, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__1card {
     margin-right: 10px;
   }
-  /* line 720, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 721, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__2card {
     margin-right: 10px;
   }
-  /* line 722, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 723, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .cards {
     width: 180px;
     height: 180px;
   }
-  /* line 726, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 727, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__dec1 {
     width: 180px;
     top: -10px;
     right: 245px;
   }
-  /* line 730, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 731, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__dec2 {
     top: -91px;
     right: 171px;
   }
-  /* line 733, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 734, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__dec3 {
     top: -60px;
     right: -60px;
   }
-  /* line 736, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 737, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__learning {
     top: 25px;
     right: 155px;
   }
-  /* line 739, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 740, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section3 {
     min-height: 535px;
   }
-  /* line 741, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 742, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section3__left {
     top: 200px;
     right: 160px;
   }
-  /* line 744, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 745, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section3__right3 {
     right: -23px;
     top: 10px;
   }
-  /* line 748, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 749, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__hr {
     bottom: 35px;
   }
-  /* line 750, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 751, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__text {
     font-size: 11px;
     width: 300px;
     margin-bottom: 30px;
   }
-  /* line 754, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 755, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__button {
     flex-direction: row;
     margin-left: -200px;
   }
-  /* line 757, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 758, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__title {
     margin-bottom: 10px;
   }
-  /* line 759, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 760, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__main-btn {
     margin-bottom: 0px;
   }
-  /* line 762, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 763, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__img {
     width: 270px;
     top: -30px;
   }
-  /* line 765, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 766, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__hr {
     bottom: 35px;
   }
-  /* line 767, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 768, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__list {
     padding-right: 40px;
   }
-  /* line 769, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 770, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__container {
     padding-right: 0px;
     min-height: 180px;
@@ -1662,11 +1663,11 @@ a {
 }
 
 @media (max-width: 575px) {
-  /* line 774, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 775, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .container {
     width: 100%;
   }
-  /* line 776, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 777, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu {
     position: absolute;
     right: -100%;
@@ -1676,17 +1677,18 @@ a {
     z-index: 18;
     width: 40%;
     transition: 1.5s all;
+    height: 450px;
   }
-  /* line 785, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 787, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu__item {
     margin-right: 0px;
     font-size: 20px;
   }
-  /* line 788, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 790, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu__item_last {
     font-size: 20px;
   }
-  /* line 790, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 792, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu__list {
     display: flex;
     flex-direction: column;
@@ -1694,7 +1696,7 @@ a {
     align-items: center;
     height: 100%;
   }
-  /* line 796, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 798, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger {
     background: linear-gradient(171.44deg, #FC7D4D 10.22%, #438FFE 56.79%, rgba(59, 58, 61, 0) 100%);
     width: 44px;
@@ -1708,7 +1710,7 @@ a {
     align-items: center;
     justify-content: center;
   }
-  /* line 808, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 810, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger span {
     height: 2px;
     width: 35px;
@@ -1717,153 +1719,153 @@ a {
     margin-bottom: 4px;
     transition: 1s all;
   }
-  /* line 816, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 818, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger span:last-child {
     margin-bottom: 10px;
   }
-  /* line 820, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 822, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span {
     margin-bottom: -2px;
   }
-  /* line 822, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 824, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span:nth-child(1) {
     transform: translateY(3px) rotate(-45deg);
   }
-  /* line 824, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 826, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span:nth-child(2) {
     display: none;
   }
-  /* line 826, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 828, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
   }
-  /* line 828, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 830, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .nav-menu_active {
     right: 0px;
     z-index: 18;
   }
-  /* line 832, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 834, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section {
     margin-bottom: 10px;
     min-height: 370px;
   }
-  /* line 835, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 837, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__header {
     margin-top: 10px;
     margin-right: 20px;
   }
-  /* line 838, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 840, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__header img {
     width: 70px;
   }
-  /* line 840, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 842, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__nav {
     padding-right: 0px;
   }
-  /* line 842, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 844, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__first-elypse {
     top: 5px;
   }
-  /* line 844, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 846, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__second-elypse {
     top: 293px;
     right: -45px;
   }
-  /* line 848, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 850, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left img {
     width: 250px;
   }
-  /* line 850, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 852, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__rectangle-blue {
     width: 200px;
     height: 70px;
     top: 20px;
     left: -20px;
   }
-  /* line 855, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 857, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__rectangle-orange {
     width: 200px;
     height: 70px;
     top: 31px;
     left: -6px;
   }
-  /* line 860, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 862, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__rectangle-grey {
     width: 200px;
     height: 70px;
     left: 6px;
     top: 48px;
   }
-  /* line 865, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 867, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .title {
     font-size: 30px;
     margin-left: 0px;
   }
-  /* line 868, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 870, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .title__hr {
     width: 24px;
   }
-  /* line 871, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 873, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .titlenoml {
     font-size: 30px;
   }
-  /* line 873, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 875, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .titlenoml__hr {
     width: 24px;
   }
-  /* line 875, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 877, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .icons__img {
     width: 25px;
   }
-  /* line 877, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 879, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .mg {
     margin-right: 20px;
   }
-  /* line 879, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 881, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right {
     top: 0;
     right: -150px;
   }
-  /* line 882, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 884, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__icon-btn {
     padding-bottom: 13px;
   }
-  /* line 884, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 886, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__icon-btn img {
     width: 40px;
   }
-  /* line 886, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 888, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__icons {
     margin-bottom: 12px;
     padding-right: 30px;
   }
-  /* line 891, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 893, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__text {
     margin-left: 134px;
     margin-bottom: 50px;
     font-size: 12px;
     width: 160px;
   }
-  /* line 896, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 898, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__button {
     margin-left: 0;
     margin-right: 30px;
   }
-  /* line 899, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 901, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right__title {
     margin-left: 135px;
   }
-  /* line 901, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 903, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .elypse {
     width: 100px;
     height: 100px;
   }
-  /* line 904, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 906, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .elypse__substract {
     width: 66px;
     height: 66px;
   }
-  /* line 907, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 909, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .buttons {
     flex-direction: row;
     justify-content: center;
@@ -1871,12 +1873,12 @@ a {
     top: 220px;
     right: 160px;
   }
-  /* line 913, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 915, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .buttons__text {
     font-size: 14px;
     padding-bottom: 10px;
   }
-  /* line 916, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 918, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .buttons__main-btn {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -1884,11 +1886,11 @@ a {
     height: 35px;
     font-size: 12px;
   }
-  /* line 922, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 924, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .main-section__first-elypse {
     right: 0;
   }
-  /* line 924, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 926, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2 {
     display: flex;
     flex-direction: row;
@@ -1896,161 +1898,161 @@ a {
     min-height: 240px;
     padding-right: 0px;
   }
-  /* line 930, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 932, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__title {
     margin-bottom: 15px;
   }
-  /* line 932, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 934, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__hr1 {
     margin-left: 2px;
   }
-  /* line 934, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 936, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__3cards {
     margin-left: 0px;
     margin-bottom: 0;
     display: flex;
     justify-content: center;
   }
-  /* line 939, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 941, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icons {
     justify-content: center;
     padding-left: 0px;
   }
-  /* line 942, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 944, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icon1 {
     margin-left: 0px;
   }
-  /* line 944, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 946, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icon1-3 {
     width: 80px;
     height: 80px;
     margin-right: 0px;
   }
-  /* line 948, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 950, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__icon4 {
     width: 80px;
     height: 80px;
   }
-  /* line 951, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 953, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__elypse {
     top: 100px;
     left: -40px;
   }
-  /* line 955, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 957, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__elypse2 {
     right: -40px;
     top: 0px;
   }
-  /* line 958, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 960, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__1card {
     margin-right: 10px;
   }
-  /* line 960, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 962, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section2__2card {
     margin-right: 10px;
   }
-  /* line 964, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 966, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .learning__title {
     font-size: 20px;
   }
-  /* line 966, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 968, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .cards {
     width: 120px;
     height: 120px;
   }
-  /* line 971, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 973, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__hr {
     width: 16px;
     margin-left: -2px;
   }
-  /* line 974, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 976, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__dec1 {
     width: 120px;
     top: -10px;
     right: 245px;
   }
-  /* line 978, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 980, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__dec2 {
     top: -50px;
     right: 200px;
   }
-  /* line 981, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 983, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__dec3 {
     top: -60px;
     right: -60px;
   }
-  /* line 984, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 986, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .left__learning {
     top: 25px;
     right: 165px;
   }
-  /* line 988, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 990, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section3 {
     min-height: 580px;
   }
-  /* line 990, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 992, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section3__left {
     top: 233px;
     right: 60px;
   }
-  /* line 993, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 995, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .section3__right3 {
     right: 0px;
     top: 10px;
   }
-  /* line 997, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 999, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__hr {
     bottom: 28px;
   }
-  /* line 999, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1001, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__text {
     font-size: 10px;
     width: 220px;
     margin-bottom: 30px;
   }
-  /* line 1003, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1005, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__button {
     flex-direction: row;
     margin-left: -200px;
     top: 500px;
     right: 40px;
   }
-  /* line 1008, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1010, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__title {
     margin-bottom: 10px;
   }
-  /* line 1010, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1012, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__main-btn {
     margin-bottom: 0px;
     margin-right: 40px;
   }
-  /* line 1013, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1015, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .right3__icon-btn {
     padding-top: 10px;
     padding-bottom: 0px;
   }
-  /* line 1017, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1019, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__img {
     width: 200px;
     top: -20px;
     left: -40px;
   }
-  /* line 1021, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1023, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__hr {
     bottom: 20px;
     width: 17px;
     left: 0px;
   }
-  /* line 1025, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1027, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__list {
     padding-right: 20px;
   }
-  /* line 1027, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1029, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__container {
     padding-right: 0px;
     min-height: 130px;
   }
-  /* line 1030, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
+  /* line 1032, C:/Users/ravin/Desktop/Project-2/src/sass/style.sass */
   .footer__title {
     font-size: 23px;
     margin-right: 3px;
